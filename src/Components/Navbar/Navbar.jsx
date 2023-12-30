@@ -6,7 +6,9 @@ import profile from '../../assets/adam.jfif'
 
 const Navbar = () => {
   return (
+    <div className="navigation-container">
     <div className='navigation'>
+        
         <div className="logo">
             <h1>RegalTrendZ</h1>
         </div>
@@ -19,6 +21,7 @@ const Navbar = () => {
                 <p>adam@gmail.com</p>
             </div>
         </div>
+    </div>
     </div>
   )
 }

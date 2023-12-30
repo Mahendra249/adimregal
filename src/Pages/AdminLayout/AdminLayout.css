@@ -1,0 +1,15 @@
+.layout-main-content{
+    /* border: 2px solid red; */
+    height: 100vh;
+    display: flex;
+}
+.layout-navigation{
+    width: 18%;
+    background-color: #f1f2f68e;
+    box-shadow: rgba(0, 0, 0, 0.151) 0px 3px 8px;
+}
+.layout-main-pages{
+ /* border: 2px solid pink; */
+ width: calc(100% - 18%);
+ background-color: #dce0f2a2;
+}
